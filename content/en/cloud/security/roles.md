@@ -1,7 +1,7 @@
 ---
 title: Roles
 description: >
-  A short lead description about this content page. It can be **bold** or _italic_ and can be split over multiple paragraphs.
+  Roles assign keychains to teams.
 date: 2023-10-30
 categories: [Security]
 tags: [roles, permissions]
@@ -37,6 +37,33 @@ tags: [roles, permissions]
 - Can perform CRUD on all resources
 {{% /card %}}
 {{< /cardpane >}}
+
+
+### Team Administrator Role
+
+{{< cardpane >}}
+{{% card header="Team Admin Role" %}}
+<img src="/cloud/security/images/role-team-admin.svg" link="images/role-team-admin.svg"  width="100%"  />
+
+**What is the purpose of this role?**
+- Administration of teams
+
+**Who can assign this role?**
+- Organization Administrator or Team owner
+
+**When this role first assigned?**
+- Creation of new team or User Account creation
+
+**How many instances of these roles?**
+- Min: 1, Max: many (based on plan)
+O- nly first Team Admin would be the owner
+
+**Who can remove assignment of this role?**
+- Organization Administrator or Team owner
+
+**What permissions does this role have?**
+{{% /card %}}
+{{< /cardpane >}} 
 
 <!-- Text can be **bold**, _italic_, or ~~strikethrough~~. [Links](https://gohugo.io) should be blue with no underlines (unless hovered over).
 
